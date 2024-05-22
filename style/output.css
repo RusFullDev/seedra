@@ -682,6 +682,10 @@ video {
   margin-top: 2rem;
 }
 
+.ml-4 {
+  margin-left: 1rem;
+}
+
 .flex {
   display: flex;
 }
@@ -692,6 +696,10 @@ video {
 
 .grid {
   display: grid;
+}
+
+.hidden {
+  display: none;
 }
 
 .size-3 {
@@ -734,6 +742,10 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.h-\[658px\] {
+  height: 658px;
 }
 
 .min-h-96 {
@@ -870,6 +882,10 @@ video {
 
 .gap-\[84px\] {
   gap: 84px;
+}
+
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -1041,6 +1057,11 @@ video {
   padding-bottom: 11px;
 }
 
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
 .pb-2 {
   padding-bottom: 0.5rem;
 }
@@ -1099,6 +1120,10 @@ video {
 
 .pt-\[99px\] {
   padding-top: 99px;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
 }
 
 .text-left {
@@ -1303,6 +1328,16 @@ video {
   pointer-events: none;
 }
 
+@media not all and (min-width: 640px) {
+  .max-sm\:block {
+    display: block;
+  }
+
+  .max-sm\:hidden {
+    display: none;
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:block {
     display: block;
@@ -1310,6 +1345,18 @@ video {
 
   .sm\:hidden {
     display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:flex {
+    display: flex;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:flex {
+    display: flex;
   }
 }
 
